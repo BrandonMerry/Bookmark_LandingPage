@@ -1,0 +1,24 @@
+{
+  "name": "bookmark_landingpage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./css/style.css",
+    "watch": "tailwindcss -i ./input.css -o ./css/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrandonMerry/Bookmark_LandingPage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrandonMerry/Bookmark_LandingPage/issues"
+  },
+  "homepage": "https://github.com/BrandonMerry/Bookmark_LandingPage#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.6"
+  }
+}
